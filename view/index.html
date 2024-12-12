@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kachi.jp</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+
+        .bar:hover {
+            fill: orange;
+        }
+
+        .axis-label {
+            font-size: 12px;
+            text-anchor: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="title"></h2>
+    <div id="chart"></div>
+    <div class="card">
+        <input type="text" id="pref" placeholder="Prefecture...">
+        <input type="text" id="city" placeholder="City...">
+        <button type="button" id="search">Search</button>
+    </div>
+</body>
+
+</html>

@@ -12,6 +12,8 @@ beautifulsoup4 = "^4.12.3"
 requests = "^2.32.3"
 jupyter = "^1.1.1"
 matplotlib = "^3.9.3"
+aioredis = "2.0.0"
+redis = "^5.2.1"
 
 
 [build-system]
